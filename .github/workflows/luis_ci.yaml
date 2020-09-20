@@ -126,6 +126,10 @@ jobs:
         do
           status=`bf luis:version:list --appId $LUISAppId --endpoint $LUISAuthoringEndpoint --subscriptionKey $LUISAuthoringKey |  jq '.[] | select(.version == '\"$LUISAppVersion\"') | .trainingStatus' | xargs`
           echo $status
+          echo $LUISAppId
+          echo $LUISAppVersion
+          echo $LUISAuthoringEndpoint
+          echo $LUISAuthoringKey
           if [ "$status" == "Trained" ]
           then
             break
