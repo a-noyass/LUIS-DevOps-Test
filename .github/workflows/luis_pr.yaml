@@ -69,9 +69,10 @@ jobs:
         status=$(echo "$response" | jq '.Status' | xargs)
         if [ "$status" == "Success" ]
         then
-          appId=$(echo "$response" | jq '.id' | sed 's/\\"//g' )
+          appId=$(echo "$response" | jq '.id' | sed 's/\\|"//g' )
           echo $appId 
           echo "::set-env name=LUISAppId::$appId"
+          echo $LUISAppId
         else
           exit 1
         fi
