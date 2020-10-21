@@ -23,6 +23,7 @@ env:
   UNIT_TEST_FILE: luis-app/tests/unittests.json
   # Set the path to the file for your unit tests
   QUALITY_TEST_FILE: luis-app/tests/verificationtests.json
+  BASELINE_CONTAINER_NAME: baseline
 
 jobs:
   build:
