@@ -176,11 +176,11 @@ jobs:
     # - name: Analyze Unit test results
     #   run: dotnet nlu compare -e $UNIT_TEST_FILE -a results.json --unit-test --output-folder unittest
 
-    - name: Archive Unit Test Results
-      uses: actions/upload-artifact@v1
-      with:
-        name: UnitTestResult
-        path: unittest/TestResult.xml
+    # - name: Archive Unit Test Results
+    #   uses: actions/upload-artifact@v1
+    #   with:
+    #     name: UnitTestResult
+    #     path: unittest/TestResult.xml
 
     - name: Create Release
       id: create_release
