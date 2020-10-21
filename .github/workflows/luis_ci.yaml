@@ -173,8 +173,8 @@ jobs:
         luisEndpointKey: ${{ env.LUISPredictionKey }}
         luisPredictionResourceName: ${{ secrets.AZURE_LUIS_PREDICTION_RESOURCE_NAME }}
 
-    - name: Analyze Unit test results
-      run: dotnet nlu compare -e $UNIT_TEST_FILE -a results.json --unit-test --output-folder unittest
+    # - name: Analyze Unit test results
+    #   run: dotnet nlu compare -e $UNIT_TEST_FILE -a results.json --unit-test --output-folder unittest
 
     - name: Archive Unit Test Results
       uses: actions/upload-artifact@v1
