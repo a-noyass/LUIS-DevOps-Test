@@ -56,16 +56,6 @@
 - i want {@vacation-request={@leave-type=paid time off} from july 6 to august 10}, cause i need to rest
 - i want some pleasure {@vacation-request=vacations for being {@leave-type=sick} {@date-range=from february 02th to february 20th}}
 - i want to ask for a {@vacation-request={@days-duration={@days-number=10}-day} vacation {@start-date=since october 13th} because i am {@leave-type=sick}} and have health related problems
-- i want to have a {@vacation-request=vacation, because the maternity leave, my doctor told me that i will be in labor at {@start-date=january 10th}, so i need {@days-duration={@days-number=7} days}} for that.
-- i want to request a {@vacation-request=vacation {@date-range=from 02/20/2020 to 02/28/2020}}
-- i wish a {@vacation-request=pleasure holiday {@date-range=from december 15th to december 25th}} please
-- i would need {@vacation-request={@leave-type=sick leave} {@date-range=starting on january 7th till january 10th}}, because i have flu.
-- i'm going to paris for work the end of june so i want to book {@vacation-request={@days-duration={@days-number=10} days} of vacation to follow that {@start-date=starting july 1}}
-- im requesting a {@vacation-request=vacation {@date-range=from feb 6th to feb 10th}} as my cousin is getting married
-- please make plans for {@vacation-request=traveling {@date-range=from december 20 until january 2}}
-- requesting a {@vacation-request=vacation starting on {@start-date=12 of january} and ending {@end-date=12 of february}}
-- requesting {@vacation-request=vacations {@date-range=from july 20 to august 15}}
-- yeah i'd like to book a {@vacation-request=vacation {@start-date=starting april 10th} lasting for {@days-duration={@days-number=10} days}} please
 
 
 > # Entity definitions
