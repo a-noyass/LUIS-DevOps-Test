@@ -27,24 +27,6 @@
 
 ## RequestVacation
 - because of my europe travel i'm going to need a {@vacation-request={@leave-type=paid time off} vacations {@date-range=from january 1 to january 15}}
-- book {@vacation-request=time off please {@start-date=starting may 1st} coming back on {@end-date=may 24}}
-- can i book {@vacation-request=vacay {@date-range=from july 4th until july 20th}}?
-- hi, i want a {@vacation-request=vacation that starts on {@start-date=june 7th} and end on {@end-date=june 15th}}.
-- i had been feeling really sick, for that reason i need to request a {@vacation-request={@leave-type=sick} vacation {@date-range=from march 10th to march 15th}}
-- i have suffering from fever for 7 days, so i need {@vacation-request={@leave-type=sick leave} for {@days-duration={@days-number=5} days} {@start-date=starting from 25th february}}.
-- i need a {@vacation-request={@leave-type=paid time off} vacation from the date {@date-range=05/05/1993 to 05/05/2022}} so i can travel and work in othe country
-- i need a {@vacation-request={@leave-type=sick} vacation of {@days-duration={@days-number=10} days} from {@start-date=jan 2nd}} because of the knee surgery
-- i need a urgent {@vacation-request=vacation of {@start-date=04/25/2020} for {@days-duration={@days-number=15} days} , am {@leave-type=sick}} with flu
-- i need a {@vacation-request=vacation {@date-range=from january to march}} because i've been working endlessly without proper compensation. or i quit
-- i need a {@vacation-request=vacation {@date-range=from may 31th to june 13th}} because i must visit my parents
-- i need my {@vacation-request=vacation this year {@start-date=02/02/2020}} , my last year was 02/02/2019 and my next vacation is 02/02/2021
-- i need to book {@vacation-request=vacation {@start-date=starting april 10th} for {@days-duration={@days-number=6} working days}}
-- i need to go on {@vacation-request=vacation on {@start-date=may 1th} and return on {@end-date=the 30th of the same month}}
-- i need to request {@vacation-request={@leave-type=paid time off} for a family holiday {@start-date=starting from 04/30/2020} and it will last {@days-duration={@days-number=10} days}}
-- i need to {@vacation-request=schedule a long vacation, specificly a month, this is {@date-range=from september 1st to october 1st}}, to hawai, and check in at hilton hotel.
-- i need to take my {@vacation-request={@leave-type=sick} vacations ({@days-duration={@days-number=20} days}) to start on {@start-date=june 01st}} due personal reasons
-- i need to take my {@vacation-request={@leave-type=sick} vacations to start on {@start-date=june 04th} and end on {@end-date=july 05th}} due personal reasons
-- i need to take my {@vacation-request=vacations to start on {@start-date=june 01st} and end on {@end-date=august 02nd}}
 
 
 > # Entity definitions
