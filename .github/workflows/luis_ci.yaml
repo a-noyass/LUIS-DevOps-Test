@@ -92,7 +92,7 @@ jobs:
         bf luis:application:list --subscriptionKey $LUISAuthoringKey  --endpoint $LUISAuthoringEndpoint | \
         jq -c '.[] | select(.name | . and contains('\"$LUIS_MASTER_APP_NAME\"')) | .id' | \
         xargs -I {} echo "LUISAppId={}" >> $GITHUB_ENV
-        echo "LUISAppExists=${#LUISAppId} -ne 36" >> $GITHUB_ENV
+        echo "LUISAppExists=${#LUISAppId} -e 36" >> $GITHUB_ENV
 
     # create application if necessary
     - name: Create application if doesn't exist
