@@ -94,6 +94,7 @@ jobs:
         xargs -I {} echo "LUISAppId={}" >> $GITHUB_ENV
         echo [ ${#LUISAppId} -eq 36 ]
         echo "LUISAppExists=[ ${#LUISAppId} -eq 36 ]" >> $GITHUB_ENV
+        echo $LUISAppId
         echo $LUISAppExists
 
     # create application if necessary
